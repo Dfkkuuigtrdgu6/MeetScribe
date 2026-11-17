@@ -69,7 +69,7 @@ function switchMode() {
           <AudioLines :size="28" />
         </div>
         <h1>语音纪要</h1>
-        <p>AI 语音转写与会议纪要，让每次会议都被妥善记录</p>
+        <p>上传或录制会议录音，自动转写并生成会议纪要与待办事项</p>
       </div>
 
       <div class="tabs">
