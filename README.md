@@ -10,9 +10,9 @@
 
 ## 🛠️ 技术栈
 - **前端框架**：Vue 3 + TypeScript + Vite
-- **UI 组件库**：（如果用了 Element Plus / Ant Design Vue 等，写在这里）
-- **状态管理**：（如果用了 Pinia，写在这里）
-- **后端/API**：（如果是纯前端可以删掉，如果有后端请写清楚用什么语言和框架）
+- **路由管理**：Vue Router
+- **图标库**：lucide-vue-next
+- **后端 / 数据库**：Supabase（认证鉴权、数据存储、Storage 音频桶、Edge Functions 云函数）
 
 ## 🚀 快速开始
 
@@ -24,3 +24,14 @@
 ```bash
 npm install
 # 或者 pnpm install
+```
+
+### 启动开发服务器
+```bash
+npm run dev
+```
+
+### 打包构建
+```bash
+npm run build
+```
