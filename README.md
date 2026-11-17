@@ -1,5 +1,26 @@
-# Vue 3 + TypeScript + Vite
+# 🎙️ MeetScribe - 智能录音纪要工具
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+基于语音识别的会议录音转纪要工具。提取会议录音内容，自动转写为文字并进行智能总结，提高会议记录效率。
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+## ✨ 核心功能
+- 🎧 **音频上传/录制**：支持上传本地会议录音或直接在线录制。
+- 📝 **语音转文字**：高准确率转写会议内容（后端接入 xxx 语音模型）。
+- 📑 **智能摘要**：一键生成会议核心要点和待办事项（后端接入 xxx 大模型）。
+- 📂 **历史记录**：保存并管理过往的会议纪要。
+
+## 🛠️ 技术栈
+- **前端框架**：Vue 3 + TypeScript + Vite
+- **UI 组件库**：（如果用了 Element Plus / Ant Design Vue 等，写在这里）
+- **状态管理**：（如果用了 Pinia，写在这里）
+- **后端/API**：（如果是纯前端可以删掉，如果有后端请写清楚用什么语言和框架）
+
+## 🚀 快速开始
+
+### 环境要求
+- Node.js >= 16.0
+- npm / pnpm / yarn
+
+### 安装依赖
+```bash
+npm install
+# 或者 pnpm install
